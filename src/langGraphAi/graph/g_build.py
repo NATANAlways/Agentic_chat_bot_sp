@@ -3,6 +3,8 @@ from src.langGraphAi.state.state import State
 from langgraph.graph import StateGraph, START, END #Asynchronous and parallel processing:
 from src.langGraphAi.nodes.chatbot_node import ChatbotNode
 
+
+
 class GraphBuilder:
     def __init__(self, llm_model):
         self.llm = llm_model
@@ -15,3 +17,9 @@ class GraphBuilder:
         self.graph_builder.add_node("chatbot", self.chatbot_node.process) # funality -> nodefolder
         self.graph_builder.add_edge(START, "chatbot") # graph: start -> chatbot (basic graph)
         self.graph_builder.add_edge("chatbot", END)
+
+    def setup_whichgraph(self, usecase: str):
+        # which graph should be selected 
+        if usecase == "Basic Chatbot":
+            self.chat_bot_build_graph()
+        return self.graph_builder.compile()

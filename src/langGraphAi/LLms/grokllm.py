@@ -5,8 +5,8 @@ from langchain_groq import ChatGroq
 
 # loading specific llm
 class Grok_LLM:
-    def __init__(self, user_control_ip):
-        self.user_controls_ip = user_control_ip
+    def __init__(self, user_controls_ip):
+        self.user_controls_ip = user_controls_ip
 
     def get_llm_model(self):
         try:
