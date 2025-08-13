@@ -26,14 +26,6 @@ It supports **modular agent workflows**, enabling different use cases such as a 
 
 ---
 
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/yourusername/langgraph-nat-bot.git
-cd langgraph-nat-bot
-
----
 ## 📂 Project Structure
 
 ```plaintext
@@ -63,6 +55,7 @@ Agentic_chat_bot_sp-main/
 
 ---
 
+```
 ## 🚀 Features
 
 - **Agent-based architecture** for modular chatbot design
@@ -79,6 +72,7 @@ Agentic_chat_bot_sp-main/
 - **LangGraph**
 - **Groq API**
 - **Llama Guard / Gemma Models**
+
 
 
 
