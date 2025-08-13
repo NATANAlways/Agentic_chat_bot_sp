@@ -33,7 +33,7 @@ It supports **modular agent workflows**, enabling different use cases such as a 
 git clone https://github.com/yourusername/langgraph-nat-bot.git
 cd langgraph-nat-bot
 
-
+---
 ## 📂 Project Structure
 
 ```
@@ -79,6 +79,7 @@ Agentic_chat_bot_sp-main/
 - **LangGraph**
 - **Groq API**
 - **Llama Guard / Gemma Models**
+
 
 
 
