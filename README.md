@@ -1,9 +1,38 @@
-# 🧠 Agentic Chat Bot
+# 😁 LangGraph: Nat-Bot
 
-An **agent-based conversational chatbot** built using modular Python architecture.  
-The system leverages **LangGraph AI** concepts to design a flexible chatbot workflow that can integrate multiple LLM backends and interactive user interfaces.
+LangGraph: Nat-Bot is an **agentic chatbot** built using **LangGraph AI** concepts, designed to run with multiple LLM backends (e.g., Groq, OpenAI, etc.).  
+It supports **modular agent workflows**, enabling different use cases such as a basic chatbot, Q&A assistant, and task automation.
 
 ---
+
+## 📌 Features
+- 🌐 **Multi-LLM Support** – Easily switch between providers like **Groq**.
+- 🧠 **Modular Agent Architecture** – Built with `StateGraph` for flexible conversation flows.
+- 🎨 **Interactive UI** – Powered by **Streamlit**.
+- 🔌 **Configurable API Keys** – Securely use your own LLM API keys.
+- 📂 **Use Case Selector** – Choose from predefined chatbot modes.
+- 📊 **User-friendly Interface** – Responsive design with message formatting.
+
+---
+
+## 📷 Screenshots
+
+### 🔹 Home Interface
+<img width="1845" height="819" alt="image" src="https://github.com/user-attachments/assets/4f6f6ee5-96f7-4b0b-b469-f66f7dad3473" />
+
+
+### 🔹 Chat in Action
+<img width="1907" height="870" alt="image" src="https://github.com/user-attachments/assets/c9e491d4-0e07-4847-9221-a2f1b9d79993" />
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/langgraph-nat-bot.git
+cd langgraph-nat-bot
+
 
 ## 📂 Project Structure
 
@@ -44,10 +73,13 @@ Agentic_chat_bot_sp-main/
 
 ---
 
-## 🛠️ Installation
+## 🛠 Technologies Used
+- **Python 3.10+**
+- **Streamlit**
+- **LangGraph**
+- **Groq API**
+- **Llama Guard / Gemma Models**
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/Agentic_chat_bot_sp-main.git
-cd Agentic_chat_bot_sp-main
+
+
 
