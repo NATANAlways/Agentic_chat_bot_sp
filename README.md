@@ -36,7 +36,7 @@ cd langgraph-nat-bot
 ---
 ## 📂 Project Structure
 
-```
+```plaintext
 Agentic_chat_bot_sp-main/
 │
 ├── app.py                        # Main entry point for the chatbot application
@@ -44,22 +44,22 @@ Agentic_chat_bot_sp-main/
 ├── src/
 │   ├── langGraphAi/
 │   │   ├── main.py                # Core logic to initialize and run LangGraph AI workflow
-│   │   ├── LLms/                  # Language model integration
-│   │   │   └── grokllm.py         # Example LLM backend
-│   │   ├── UI/                    # User interface modules
-│   │   │   ├── configfile_ui.py   # UI configuration logic
-│   │   │   ├── configfile_ui.ini  # UI settings file
-│   │   │   └── streamlit_UI/      # Streamlit-based chatbot UI
+│   │   ├── LLms/                   # Language model integration
+│   │   │   └── grokllm.py          # Example LLM backend
+│   │   ├── UI/                     # User interface modules
+│   │   │   ├── configfile_ui.py    # UI configuration logic
+│   │   │   ├── configfile_ui.ini   # UI settings file
+│   │   │   └── streamlit_UI/       # Streamlit-based chatbot UI
 │   │   │       ├── load.py
 │   │   │       └── result.py
-│   │   ├── graph/                 # Conversation graph definitions
+│   │   ├── graph/                  # Conversation graph definitions
 │   │   │   └── g_build.py
-│   │   ├── nodes/                 # Conversation node definitions
+│   │   ├── nodes/                  # Conversation node definitions
 │   │   │   └── chatbot_node.py
 │   │   └── __init__.py
 │   └── __init__.py
 └── .gitignore
-```
+
 
 ---
 
@@ -79,6 +79,7 @@ Agentic_chat_bot_sp-main/
 - **LangGraph**
 - **Groq API**
 - **Llama Guard / Gemma Models**
+
 
 
 
